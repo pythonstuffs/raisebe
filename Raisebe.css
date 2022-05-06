@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@500&family=Oleo+Script+Swash+Caps&family=Radio+Canada:wght@500&family=Roboto&display=swap');
+
+
+
+footer{
+    font-size: 0.9em;
+    font-family: 'Radio Canada', sans-serif;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(247, 247, 247, 0.922);
+   
+}
+.footergrid{
+    display: flex;
+    
+}
+.footerheading{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.footerheading a{
+    text-decoration: none;
+    color: rgba(31, 31, 31, 0.7);
+    padding: 10px 0px;
+}
+
+.footerheading i{
+    padding: 0,5px;
+}

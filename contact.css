@@ -47,11 +47,15 @@ body{
 }
 .contact
 {
-    padding: 40px;
+    padding: 80px;
     background-color:rgb(255, 255, 255);
     box-shadow: 0 5px 35px rgb(48, 40, 40);
+    border-radius: 10px;
+    height: 40em;
 
 }
+
+
 .box
 {
     position: relative;
@@ -164,6 +168,10 @@ body{
     color: rgb(0, 0, 0);
     font-size: 1.1em;
 }
+
+.info{
+    height: 32em;
+}
 .info .infoBox div a 
 {
     color: rgb(0, 0, 0);
@@ -202,6 +210,10 @@ body{
 
 @media (max-width:991px)
 {
+    body {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(160deg, rgb(255, 255, 255) 6%, rgba(196, 196, 196, 0.829) 6%, rgb(241, 241, 241) 53%,rgb(221, 221, 221) 40%,rgb(255, 255, 255) 40%);
+}
 
     .contactUs
     {
@@ -224,5 +236,10 @@ body{
     .inputBox
     {
         width: 100%;
+    }
+    .formbox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
     }
 }
