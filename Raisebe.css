@@ -31,3 +31,11 @@ footer{
 .footerheading i{
     padding: 0,5px;
 }
+
+@media screen and (max-width: 600px) {
+    .footergrid {
+        display:inline-block;
+        text-align: center;
+
+    }
+    }
